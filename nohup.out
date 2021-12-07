@@ -1,0 +1,538 @@
+
+> backend@1.0.0 start
+> babel-node ./serverUsers.js
+
+Server is running on port: 3003
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+
+> backend@1.0.0 start
+> babel-node ./serverUsers.js
+
+Server is running on port: 3003
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+
+> backend@1.0.0 start
+> babel-node ./serverUsers.js
+
+Server is running on port: 3003
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+
+> backend@1.0.0 start
+> babel-node ./serverUsers.js
+
+Server is running on port: 3003
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /undefined
+Request type: GET
+Request from: /undefined
+Request type: GET
+Request from: /undefined
+Request type: GET
+Request from: /undefined
+Request type: GET
+Request from: /undefined
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /618def7760ae6a34de4990e5
+Request type: GET
+Request from: /1
+Request type: GET
+Request from: /111
+Request type: GET
+Request from: /111
+Request type: GET
+Request from: /111
+Request type: GET
+Request from: /111
+Request type: GET
+Request from: /111
+Request type: GET
+Request from: /111
+Request type: GET
+Request from: /111
+Request type: GET
+Request from: /111
+Request type: GET
+Request from: /111
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users?sub=123
+Request type: GET
+
+> backend@1.0.0 start
+> babel-node ./serverUsers.js
+
+node:events:368
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3003
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (/srv/backend-users/node_modules/express/lib/application.js:618:24)
+    at file:///srv/backend-users/serverUsers.js:47:5
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at loadESM (node:internal/process/esm_loader:88:5)
+    at handleMainPromise (node:internal/modules/run_main:65:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1361:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3003
+}
+
+Node.js v17.0.1
+
+> backend@1.0.0 start
+> babel-node ./serverUsers.js
+
+Server is running on port: 3003
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /
+Request type: GET
+
+> backend@1.0.0 start
+> babel-node ./serverUsers.js
+
+Server is running on port: 3003
+Request from: /users/
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+
+> backend@1.0.0 start
+> babel-node ./serverUsers.js
+
+Server is running on port: 3003
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+
+> backend@1.0.0 start
+> babel-node ./serverUsers.js
+
+Server is running on port: 3003
+/srv/backend-users/node_modules/mongodb/lib/core/uri_parser.js:51
+    return callback(new MongoParseError('URI does not have hostname, domain name and tld'));
+                    ^
+
+MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (/srv/backend-users/node_modules/mongodb/lib/core/uri_parser.js:51:21)
+    at parseConnectionString (/srv/backend-users/node_modules/mongodb/lib/core/uri_parser.js:595:12)
+    at connect (/srv/backend-users/node_modules/mongodb/lib/operations/connect.js:281:3)
+    at /srv/backend-users/node_modules/mongodb/lib/mongo_client.js:259:5
+    at maybePromise (/srv/backend-users/node_modules/mongodb/lib/utils.js:692:3)
+    at MongoClient.connect (/srv/backend-users/node_modules/mongodb/lib/mongo_client.js:255:10)
+    at /srv/backend-users/node_modules/mongoose/lib/connection.js:835:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (/srv/backend-users/node_modules/mongoose/lib/connection.js:832:19)
+    at /srv/backend-users/node_modules/mongoose/lib/index.js:351:10
+    at /srv/backend-users/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/srv/backend-users/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/srv/backend-users/node_modules/mongoose/lib/index.js:1149:10)
+    at Mongoose.connect (/srv/backend-users/node_modules/mongoose/lib/index.js:350:20)
+    at file:///srv/backend-users/serverUsers.js:30:10
+
+Node.js v17.0.1
+
+> backend@1.0.0 start
+> babel-node ./serverUsers.js
+
+Server is running on port: 3003
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+
+> backend@1.0.0 start
+> babel-node ./serverUsers.js
+
+Server is running on port: 3003
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+
+> backend@1.0.0 start
+> babel-node ./serverUsers.js
+
+Server is running on port: 3003
+
+> backend@1.0.0 start
+> babel-node ./serverUsers.js
+
+Server is running on port: 3003
+Connected successfully
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users/
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
+Request from: /users
+Request type: GET
