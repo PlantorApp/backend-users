@@ -63,9 +63,51 @@ const routes = (app) => {
 			// Middlware
 		}, getUserByID)
 		// Update a specific user
-		.put(updateUser)
+		.put(async (req, res, next) => {
+			let isValidToken = false;
+			const token = req.headers['authorization'];
+			if(!token) {
+				res.status(401).setHeader('Content-Type', 'application/json');
+				res.end(JSON.stringify({AuthError: "No Token" }));
+			} else {
+				let result = await validateJwt(token);
+				if(result?.iss === "https://accounts.google.com") {
+					isValidToken = true;
+				}
+				if(isValidToken) {
+					console.log(`Request from: ${req.originalUrl}`);
+					console.log(`Request type: ${req.method}`);
+					next();
+				} else {
+					res.status(401).setHeader('Content-Type', 'application/json');
+					res.end(JSON.stringify({ AuthError: "Invalid Auth Token" }));
+				}
+			}
+			// Middlware
+		}, updateUser)
 		// Delete a specific user
-		.delete(deleteUser)
+		.delete(async (req, res, next) => {
+			let isValidToken = false;
+			const token = req.headers['authorization'];
+			if(!token) {
+				res.status(401).setHeader('Content-Type', 'application/json');
+				res.end(JSON.stringify({AuthError: "No Token" }));
+			} else {
+				let result = await validateJwt(token);
+				if(result?.iss === "https://accounts.google.com") {
+					isValidToken = true;
+				}
+				if(isValidToken) {
+					console.log(`Request from: ${req.originalUrl}`);
+					console.log(`Request type: ${req.method}`);
+					next();
+				} else {
+					res.status(401).setHeader('Content-Type', 'application/json');
+					res.end(JSON.stringify({ AuthError: "Invalid Auth Token" }));
+				}
+			}
+			// Middlware
+		}, deleteUser)
 		// } catch(e) {
 		// 	app.route('/users/*')
 		// 		.get((req, res) => {
