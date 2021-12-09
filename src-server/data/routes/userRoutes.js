@@ -35,7 +35,28 @@ const routes = (app) => {
 			// Middlware
 		}, getUsers)
 		// This is a post endpoint
-		.post(addNewUser)
+		.post(async (req, res, next) => {
+			let isValidToken = false;
+			const token = req.headers['authorization'];
+			if(!token) {
+				res.status(401).setHeader('Content-Type', 'application/json');
+				res.end(JSON.stringify({AuthError: "No Token" }));
+			} else {
+				let result = await validateJwt(token);
+				if(result?.iss === "https://accounts.google.com") {
+					isValidToken = true;
+				}
+				if(isValidToken) {
+					console.log(`Request from: ${req.originalUrl}`);
+					console.log(`Request type: ${req.method}`);
+					next();
+				} else {
+					res.status(401).setHeader('Content-Type', 'application/json');
+					res.end(JSON.stringify({ AuthError: "Invalid Auth Token" }));
+				}
+			}
+			// Middlware
+		}, addNewUser)
 
 		// try {
 	app.route('/users/:sub')
